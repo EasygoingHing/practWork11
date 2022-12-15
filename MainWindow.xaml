@@ -1,0 +1,24 @@
+﻿<Window x:Class="WPFApp11.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFApp11"
+        mc:Ignorable="d"
+        Title="Практическая 11" Height="315" Width="585" ResizeMode="CanMinimize">
+    <Grid Margin="0,0,10,6">
+        <Button x:Name="buttonExit" Content="Выход" HorizontalAlignment="Left" Margin="380,214,0,0" VerticalAlignment="Top" Height="30" FontSize="14" Width="102" Click="ButtonExit_Click"/>
+        <Button x:Name="buttonAbout" Content="О программе" HorizontalAlignment="Left" Margin="72,214,0,0" VerticalAlignment="Top" Height="30" Width="110" FontSize="14" Click="ButtonAbout_Click"/>
+        <Label x:Name="label" Content="Дана строка 1:" HorizontalAlignment="Left" Margin="22,62,0,0" VerticalAlignment="Top" Width="101"/>
+        <TextBox x:Name="tbDano" HorizontalAlignment="Left" Margin="22,88,0,0" TextWrapping="Wrap" Text="        ahb acb aeb aeeb adcb axeb" VerticalAlignment="Top" Width="237" IsReadOnly="True" FontSize="14"/>
+        <Button x:Name="buttonToFind" Content="Найти" HorizontalAlignment="Left" Margin="72,120,0,0" VerticalAlignment="Top" Height="30" Width="110" Click="ButtonToFind_Click"/>
+        <Label x:Name="label_Copy" Content="Результат:" HorizontalAlignment="Left" Margin="22,142,0,0" VerticalAlignment="Top" Width="80"/>
+        <TextBox x:Name="tbResult" HorizontalAlignment="Left" Margin="22,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="237" IsReadOnly="True" FontSize="14"/>
+        <Label x:Name="label_Copy1" Content="Дана строка 2:" HorizontalAlignment="Left" Margin="278,62,0,0" VerticalAlignment="Top" Width="97"/>
+        <TextBox x:Name="tbDano2" HorizontalAlignment="Left" Margin="278,88,0,0" TextWrapping="Wrap" Text="aa a1a a22a a333a a4444a a55555a aba aca" VerticalAlignment="Top" Width="280" IsReadOnly="True" FontSize="14"/>
+        <Button x:Name="buttonToFind2" Content="Найти" HorizontalAlignment="Left" Margin="380,120,0,0" VerticalAlignment="Top" Height="30" Width="102" Click="ButtonToFind2_Click"/>
+        <Label x:Name="label_Copy2" Content="Результат:" HorizontalAlignment="Left" Margin="278,142,0,0" VerticalAlignment="Top" Width="80"/>
+        <TextBox x:Name="tbResult2" Margin="278,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" IsReadOnly="True" FontSize="14" HorizontalAlignment="Left" Width="280"/>
+
+    </Grid>
+</Window>
